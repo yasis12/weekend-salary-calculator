@@ -1,6 +1,8 @@
 # Weekend Challenge: JavaScript Salary Calculator
 Create an application that records employee salaries and adds salaries up to report monthly costs. 
 
+> NOTE: We are expecting a minimum of 8 commits for this assignment.
+
 ## Topics Covered
 - JavaScript
 - Selectors, appending to the DOM, and event handling
@@ -40,4 +42,4 @@ Base | required
 Stretch | optional, stretches your understanding and may require additional research
 
 ## Assignment Submission
-Check in your repo, then turn in your work via the Prime Academy Assignment Application at [http://primeacademy.io](http://primeacademy.io), as usual and don't hesitate to hit up the Slack channel as needed!
+Check in your repo, then turn in your work via the Prime Portal, as usual and don't hesitate to hit up the Slack channel as needed!
