@@ -1,9 +1,10 @@
-# Weekend Challenge: jQuery Salary Calculator
+# Weekend Challenge: JavaScript Salary Calculator
 Create an application that records employee salaries and adds salaries up to report monthly costs. 
 
 ## Topics Covered
 - JavaScript
 - Selectors, appending to the DOM, and event handling
+- Node & Express server
 
 ## Assignment
 
