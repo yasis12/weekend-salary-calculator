@@ -7,8 +7,8 @@
     text-align: center;
 }
 /* form submit style*/
-h2 {
-    text-align: center;
+#employeeHeader {
+    text-align: left;
 }
 /* Table style*/
 table, th, td {
@@ -21,4 +21,8 @@ table, th, td {
 
   #formDiv {
     text-align: center;
+  }
+
+  #totalMonthly {
+    text-align: right;
   }
