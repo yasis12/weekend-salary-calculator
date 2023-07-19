@@ -18,3 +18,7 @@ table, th, td {
   #tableDiv {
     background-color: rgb(198, 196, 196);
   }
+
+  #formDiv {
+    text-align: center;
+  }
