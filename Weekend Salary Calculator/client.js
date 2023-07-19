@@ -10,6 +10,7 @@ console.log('hello Raf');
 // let jobTitle = '';
 // let annualSalary = 0;
 let annualSalaryCombined = 0;
+let annualMonthlySalary = 0;
 
 
 function salaryCalculator(event) {
@@ -41,12 +42,14 @@ employeeTable.innerHTML +=`
           </tr>
 `
 annualSalaryCombined += Number(annualSalary);
-
-console.log('Combined salary thing', annualSalaryCombined);
+// console.log('Combined salary thing', annualSalaryCombined);
+annualMonthlySalary = annualSalaryCombined / 12;
 
 totalMonthly.innerHTML = `
-<h2>Total Monthly: $${annualSalaryCombined}</h2>
+<h2>Total Monthly: $${annualMonthlySalary}</h2>
 `
+}
 
-
+function removeEmployee(event) {
+    console.log('Good Bye');
 }
