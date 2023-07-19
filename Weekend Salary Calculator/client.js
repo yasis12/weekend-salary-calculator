@@ -39,17 +39,25 @@ employeeTable.innerHTML +=`
             <th>${idNumber}</th>
             <th>${jobTitle}</th>
             <th>$${annualSalary}</th>
+            <th>
+            <button id="delete" onclick="removeEmployee(event)">Delete</button>
+        </th>
           </tr>
 `
 annualSalaryCombined += Number(annualSalary);
 // console.log('Combined salary thing', annualSalaryCombined);
 annualMonthlySalary = annualSalaryCombined / 12;
-
+// appeneding the monthly pay to the DOM
 totalMonthly.innerHTML = `
 <h2>Total Monthly: $${annualMonthlySalary}</h2>
 `
 }
 
+//Remove employee button function
+
 function removeEmployee(event) {
     console.log('Good Bye');
+    let button = event.target;
+    let rowToRemove = button.closest('tr');
+    rowToRemove.remove();
 }
