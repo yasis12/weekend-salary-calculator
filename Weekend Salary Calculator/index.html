@@ -7,11 +7,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--Header/Title-->
     <header id="header">
         <h1 id="headerTitle">Salary Calculator</h1>
     </header>
-    
+    <!--Input form for the salaries-->
+    <!-- <form> -->
+        <!--First name-->
+        <label for="firstName">First Name:</label>
+        <input id="firstName" type="text" placeholder="John">
+        <!--Last name-->
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" type="text" placeholder="Smith">
+        <!--ID Number-->
+        <label for="idNumber">ID Number: (5 digits)</label>
+        <input id="idNumber" type="number" placeholder="#####">
+        <!--Job Title-->
+        <label for="jobTitle">Job Title:</label>
+        <input id="jobTitle" type="text" placeholder="Job Title">
+        <!--Annual Salary-->
+        <label for="annualSalary">Annual Salary:</label>
+        <input id="annualSalary" type="number" placeholder="$40,000">
+    <!-- </form> -->
+    <button id="submitButton" type="submit" onclick="salaryCalculator()">Submit</button>
+
+    <!--table header-->
+<h2>
+    Employees!
+</h2>   
+
+<!--table for all employees to be inputed-->
+<!--Body of the beast-->
+
+    <div id="tableDiv">
+        <table id="employeeTable" style="width:100%">
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>ID:</th>
+            <th>Title</th>
+            <th>Annual Salary</th>
+          </tr>
+    </div>
+
+
+<!-- TOtal monthly Salary for Employees-->
+<footer>
+    <h3>Total Monthly: $xx,xxx</h3>
+</footer>
+
+
 
     <script src="client.js"></script>
 </body>
 </html>
+

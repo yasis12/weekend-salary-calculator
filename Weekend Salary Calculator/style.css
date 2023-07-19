@@ -1,8 +1,20 @@
 #header {
     background-color: grey;
 }
-
+/* Title style*/
 #headerTitle {
     color: black;
     text-align: center;
 }
+/* form submit style*/
+h2 {
+    text-align: center;
+}
+/* Table style*/
+table, th, td {
+    border:1px solid black;
+  }
+
+  #tableDiv {
+    background-color: rgb(198, 196, 196);
+  }
